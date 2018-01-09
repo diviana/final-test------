@@ -40,3 +40,17 @@ ul > li img {
 }
 
 /* Вашият CSS от тук надолу */
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    ul li {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    ul li {
+        display: inline;
+    }
+    ul li {
+        width: 15%;
+    }
+}
